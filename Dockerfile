@@ -10,7 +10,7 @@ ADD run.sh /run.sh
 RUN chmod +x /run.sh
 
 # Expose the container port
-EXPOSE 8080
+EXPOSE 80
 
 CMD ["/run.sh"]
 
